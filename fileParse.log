@@ -1,0 +1,23 @@
+[INFO ] 08-12-2020 02:20:22.877 PM [main] DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_271 on DESKTOP-OM8IJ4L with PID 2788 (M:\Assignment_Ranjani\demo-0.0.1-SNAPSHOT.jar started by manov in M:\Assignment_Ranjani)
+[DEBUG] 08-12-2020 02:20:22.888 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 08-12-2020 02:20:22.893 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 08-12-2020 02:20:24.870 PM [main] DemoApplication - Started DemoApplication in 2.794 seconds (JVM running for 5.157)
+[DEBUG] 08-12-2020 02:20:24.876 PM [main] DemoApplication - Starting the File Parsing
+[DEBUG] 08-12-2020 02:20:24.877 PM [main] FileParserServiceImpl - Entering parseFileContent() method
+[DEBUG] 08-12-2020 02:20:24.889 PM [main] FileParserServiceImpl - Entering getSentences() method
+[DEBUG] 08-12-2020 02:20:24.893 PM [main] FileParserServiceImpl - Exiting getSentences() method
+[DEBUG] 08-12-2020 02:20:24.894 PM [main] FileParserServiceImpl - Entering the escapeSpecialCharacters()
+[DEBUG] 08-12-2020 02:20:24.898 PM [main] FileParserServiceImpl - Exiting the escapeSpecialCharacters()
+[DEBUG] 08-12-2020 02:20:24.901 PM [main] FileParserServiceImpl - Entering the getWords()
+[DEBUG] 08-12-2020 02:20:24.910 PM [main] FileParserServiceImpl - Exiting the getWords()
+[DEBUG] 08-12-2020 02:20:24.912 PM [main] FileParserServiceImpl - Entering the buildTextPojo()
+[DEBUG] 08-12-2020 02:20:24.915 PM [main] FileParserServiceImpl - Exiting the buildTextPojo()
+[INFO ] 08-12-2020 02:20:24.916 PM [main] FileParserServiceImpl - Exiting parseFileContent() method
+[DEBUG] 08-12-2020 02:20:24.918 PM [main] FileParserServiceImpl - Entering generateOutputFile() method
+[DEBUG] 08-12-2020 02:20:24.919 PM [main] XmlUtil - Entering the marshal() method in XmlUtil
+[DEBUG] 08-12-2020 02:20:25.023 PM [main] XmlUtil - Exiting the marshal() method in XmlUtil
+[DEBUG] 08-12-2020 02:20:25.026 PM [main] XmlUtil - Completed the xml file generation in the path--M:\Assignment_Ranjani\Output_XML_File\output.xml
+[DEBUG] 08-12-2020 02:20:25.029 PM [main] FileParserServiceImpl - Entering the generateOutputInCSV()
+[DEBUG] 08-12-2020 02:20:25.038 PM [main] FileParserServiceImpl - Exiting the generateOutputInCSV() -Successfully generated CSV Output file in the path  M:\Assignment_Ranjani\Output_CSV_File\output.csv
+[DEBUG] 08-12-2020 02:20:25.043 PM [main] FileParserServiceImpl - Exiting generateOutputFile() method
+[DEBUG] 08-12-2020 02:20:25.043 PM [main] DemoApplication - Completed the File Parsing

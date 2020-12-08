@@ -1,0 +1,50 @@
+File Parser Assignment
+This Project is used to parse the input file and convert the content to XML/CSV based on the configuration
+
+Software Requirements:
+
+JAVA:jdk1.8.0_271
+MAVEN:apache-maven-3.6.3
+SPRING BOOT:2.4.0
+
+Configurations:
+
+Path for Input and Ouput files are configured in application.properties
+If required,please change the path in application.properties
+
+#Path for the input file
+text.file.path=M:\\Input_Text_File\\small.in
+
+#Path for the output xml file
+xml.file.path=M:\\Output_XML_File
+
+#Path for the output csv file
+csv.file.path=M:\\Output_CSV_File
+
+#If need to generate xml as output,set this flag to 1
+generateXml=1
+
+#If need to generate csv as output,set this flag to 1
+generateCsv=1
+
+Note:for output,enter only the folder path.
+
+Log4j:
+
+Log4j file will get generated in the same folder where the jar file is placed.
+Log4j File Name:fileParse.log
+
+Execution:
+
+Please run the batch file "startParseFile.bat" placed in the folder Assignment_Ranjani
+
+Once the batch is ran successfully,please check the output folders for the files generated.
+
+Note:Output files and log file generated from this project are also placed in the Assignment_Ranjani for your reference.
+
+Further Improvements:
+Spring batch features can be added to enhance the processing as per the requirement.
+
+Note:
+Source code is also placed in the folder Assignment_Ranjani
+
